@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>เกาะพยาม | ระนอง</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+    <style>
+        :root {
+            --island-sand: #f4a261;
+            --ocean-teal: #2a9d8f;
+            --deep-water: #264653;
+            --bg-light: #fdfdfd;
+        }
+
+        body {
+            font-family: 'Prompt', sans-serif;
+            background-color: var(--bg-light);
+            color: #333;
+        }
+
+        .container-custom {
+            max-width: 850px;
+            margin: 50px auto;
+        }
+
+        .place-card {
+            background: white;
+            border-radius: 25px;
+            overflow: hidden;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+            border: 1px solid #f0f0f0;
+        }
+
+        .image-header {
+            position: relative;
+            height: 450px;
+        }
+
+        .image-header img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .badge-info {
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            background: rgba(42, 157, 143, 0.85);
+            backdrop-filter: blur(10px);
+            padding: 8px 18px;
+            border-radius: 50px;
+            color: white;
+            font-weight: 400;
+            font-size: 0.9rem;
+        }
+
+        .content-section {
+            padding: 40px;
+        }
+
+        h1 {
+            color: var(--deep-water);
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+
+        .info-text {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            color: #555;
+            margin-bottom: 30px;
+        }
+
+        .map-box {
+            border-radius: 20px;
+            overflow: hidden;
+            margin-bottom: 30px;
+            border: 1px solid #eee;
+        }
+
+        .action-btns {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 15px;
+        }
+
+        .btn-home {
+            background: #f8f9fa;
+            color: #666;
+            border: 1px solid #ddd;
+            padding: 12px;
+            border-radius: 15px;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        .btn-google-maps {
+            background: var(--ocean-teal);
+            color: white;
+            padding: 12px;
+            border-radius: 15px;
+            text-decoration: none;
+            text-align: center;
+            font-weight: 600;
+            transition: 0.3s;
+        }
+
+        .btn-google-maps:hover {
+            background: var(--island-sand);
+            color: white;
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container container-custom">
+    <div class="place-card">
+        <div class="image-header">
+            <img src="https://www.checkinchill.com/storage/content/785feccf-b7a9-4e1e-be73-c83c8f2d6d20.webp" alt="เกาะพยาม ระนอง">
+            <div class="badge-info">
+                <i class="bi bi-sun-fill"></i> มัลดีฟส์เมืองไทย
+            </div>
+        </div>
+
+        <div class="content-section">
+            <h1>เกาะพยาม (Koh Phayam)</h1>
+            <p class="info-text">
+                <strong>เกาะพยาม</strong> เป็นเกาะที่มีขนาดใหญ่เป็นอันดับสองของจังหวัดระนอง ขึ้นชื่อเรื่องความเป็นธรรมชาติที่ยังคงสมบูรณ์ 
+                ไม่มีรถยนต์วิ่งบนเกาะ (ใช้จักรยานหรือมอเตอร์ไซค์) ไฮไลท์สำคัญคือ <strong>อ่าวใหญ่</strong> และ <strong>อ่าวเขาควาย</strong> 
+                รวมถึงวัดเกาะพยามที่มีโบสถ์กลางทะเล เป็นจุดหมายยอดฮิตสำหรับคนที่ต้องการพักผ่อนแบบเงียบสงบและดื่มด่ำกับวิถีชีวิตชาวเกาะ
+            </p>
+
+            <div class="map-box shadow-sm">
+                <div class="ratio ratio-16x9">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62916.738378233385!2d98.40348835!3d9.74096245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30570131c07b322b%3A0xf5dd383a9741bb45!2z4LmA4LiB4Liy4Liw4Lie4Lii4Liy4LihIOC4o-C4sOC4meC4reC4hw!5e0!3m2!1sth!2sth!4v1768256253634!5m2!1sth!2sth" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+
+            <div class="action-btns">
+                <a href="index.html" class="btn-home">
+                    <i class="bi bi-chevron-left"></i> กลับ
+                </a>
+                <a href="https://maps.google.com/?cid=15111181918977574332&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQ" target="_blank" class="btn-google-maps">
+                    <i class="bi bi-geo-alt-fill"></i> เปิดนำทาง Google Maps
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
