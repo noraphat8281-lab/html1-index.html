@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>สกายวอล์ค ระนอง | เขานิเวศน์</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+    <style>
+        :root {
+            --skywalk-blue: #0077b6;
+            --modern-navy: #03045e;
+            --glass-white: #f8f9fa;
+            --bg-light: #ffffff;
+        }
+
+        body {
+            font-family: 'Prompt', sans-serif;
+            background-color: var(--bg-light);
+            color: #333;
+        }
+
+        .container-custom {
+            max-width: 850px;
+            margin: 50px auto;
+        }
+
+        .place-card {
+            background: white;
+            border-radius: 25px;
+            overflow: hidden;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+            border: 1px solid #f0f0f0;
+        }
+
+        .image-header {
+            position: relative;
+            height: 450px;
+        }
+
+        .image-header img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .badge-info {
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            background: rgba(0, 119, 182, 0.85);
+            backdrop-filter: blur(10px);
+            padding: 8px 18px;
+            border-radius: 50px;
+            color: white;
+            font-weight: 400;
+            font-size: 0.9rem;
+        }
+
+        .content-section {
+            padding: 40px;
+        }
+
+        h1 {
+            color: var(--modern-navy);
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+
+        .info-text {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            color: #555;
+            margin-bottom: 30px;
+        }
+
+        .map-box {
+            border-radius: 20px;
+            overflow: hidden;
+            margin-bottom: 30px;
+            border: 1px solid #eee;
+        }
+
+        .action-btns {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 15px;
+        }
+
+        .btn-home {
+            background: #f8f9fa;
+            color: #666;
+            border: 1px solid #ddd;
+            padding: 12px;
+            border-radius: 15px;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        .btn-google-maps {
+            background: var(--skywalk-blue);
+            color: white;
+            padding: 12px;
+            border-radius: 15px;
+            text-decoration: none;
+            text-align: center;
+            font-weight: 600;
+            transition: 0.3s;
+        }
+
+        .btn-google-maps:hover {
+            background: var(--modern-navy);
+            color: white;
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container container-custom">
+    <div class="place-card">
+        <div class="image-header">
+            <img src="https://ak-d.tripcdn.com/images/1mi0t224x8y0ja6qdE53D_W_640_0_R5_Q80.jpg?proc=source/trip" alt="สกายวอล์ค ระนอง เขานิเวศน์">
+            <div class="badge-info">
+                <i class="bi bi-eye-fill"></i> วิวเมือง 360 องศา
+            </div>
+        </div>
+
+        <div class="content-section">
+            <h1>สกายวอล์ค ระนอง (Ranong Skywalk)</h1>
+            <p class="info-text">
+                <strong>สกายวอล์ค ระนอง</strong> ตั้งอยู่บนเนินนิเวศน์คีรี (เขานิเวศน์) เป็นแลนด์มาร์คแห่งใหม่ใจกลางเมือง 
+                ให้คุณเดินชมทัศนียภาพของเมืองระนองได้แบบพาโนรามา เห็นทั้งป่าไม้ที่สมบูรณ์และบ้านเรือนในหุบเขา 
+                ทางเดินถูกออกแบบอย่างทันสมัย ปลอดภัย และเป็นจุดชมวิวยอดฮิตโดยเฉพาะในช่วงเช้าและเย็นที่อากาศเย็นสบาย
+            </p>
+
+            <div class="map-box shadow-sm">
+                <div class="ratio ratio-16x9">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3949.1915469542713!2d98.63462827588367!3d9.96525417585324!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3057513f3f78b5bb%3A0x9f607d6a34857502!2z4Liq4LiB4Liy4Lii4Lin4Lit4Lil4LmM4LiE4Lij4Liw4LiZ4Lit4LiH!5e0!3m2!1sth!2sth!4v1705100000003!5m2!1sth!2sth" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+
+            <div class="action-btns">
+                <a href="index.html" class="btn-home">
+                    <i class="bi bi-chevron-left"></i> กลับ
+                </a>
+                <a href="https://maps.google.com/?cid=11484316944896095490&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQ" target="_blank" class="btn-google-maps">
+                    <i class="bi bi-geo-alt-fill"></i> เปิดนำทาง Google Maps
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
