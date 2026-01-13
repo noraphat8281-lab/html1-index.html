@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ภูเขาหญ้า | ระนอง</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+    <style>
+        :root {
+            --nature-green: #4f772d;
+            --soft-green: #90a955;
+            --bg-light: #fdfdfd;
+        }
+
+        body {
+            font-family: 'Prompt', sans-serif;
+            background-color: var(--bg-light);
+            color: #333;
+        }
+
+        .container-custom {
+            max-width: 850px;
+            margin: 50px auto;
+        }
+
+        .place-card {
+            background: white;
+            border-radius: 25px;
+            overflow: hidden;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.05);
+            border: 1px solid #f0f0f0;
+        }
+
+        .image-header {
+            position: relative;
+            height: 450px;
+        }
+
+        .image-header img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .content-section {
+            padding: 40px;
+        }
+
+        h1 {
+            color: var(--nature-green);
+            font-weight: 600;
+        }
+
+        .map-box {
+            border-radius: 20px;
+            overflow: hidden;
+            margin-bottom: 30px;
+            border: 1px solid #eee;
+        }
+
+        .action-btns {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 15px;
+        }
+
+        .btn-home {
+            background: #f8f9fa;
+            color: #666;
+            border: 1px solid #ddd;
+            padding: 12px;
+            border-radius: 15px;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        .btn-google-maps {
+            background: var(--nature-green);
+            color: white;
+            padding: 12px;
+            border-radius: 15px;
+            text-decoration: none;
+            text-align: center;
+            font-weight: 600;
+            transition: 0.3s;
+        }
+
+        .btn-google-maps:hover {
+            background: var(--soft-green);
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container container-custom">
+    <div class="place-card">
+        <div class="image-header">
+            <img src="https://ik.imagekit.io/tvlk/blog/2024/04/XAdOrgWl-image20-1024x683.jpg?tr=q-70,c-at_max,w-1000,h-600" alt="ภูเขาหญ้า ระนอง">
+        </div>
+
+        <div class="content-section">
+            <h1>ภูเขาหญ้า </h1>
+            <p>ภูเขาหญ้า หรือ <strong>"ภูเขาหัวโล้น"</strong> แลนด์มาร์คสุดมหัศจรรย์ของจังหวัดระนอง 
+                ที่เป็นภูเขาไร้ต้นไม้ใหญ่ แต่ถูกปกคลุมด้วยทุ่งหญ้าสีเขียวขจีในฤดูฝน และจะเปลี่ยนเป็นสีทองอร่ามในฤดูหนาวและฤดูร้อน 
+                เป็นจุดถ่ายรูปยอดฮิตที่ให้บรรยากาศเหมือนอยู่ต่างประเทศ</p>
+
+<div class="map-box shadow-sm">
+    <div class="ratio ratio-16x9">
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3947.535269784395!2d98.61854577488955!3d9.865862390232537!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30555726900504a5%3A0x4eb4186f99a2e5ed!2z4Lig4Li54LmA4LiC4Liy4Lir4LiN4LmJ4Liy!5e0!3m2!1sth!2sth!4v1705120000000!5m2!1sth!2sth" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </div>
+</div>
+            <div class="action-btns">
+                <a href="index.html" class="btn-home">
+                    <i class="bi bi-chevron-left"></i> กลับ
+                </a>
+                <a href="https://maps.google.com/?cid=5671402899880679165&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQ" target="_blank" class="btn-google-maps">
+                    <i class="bi bi-geo-alt-fill"></i> เปิดนำทาง Google Maps
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
